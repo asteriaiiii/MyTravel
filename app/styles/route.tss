@@ -1,0 +1,59 @@
+".route":{
+	fullscreen: false,
+	backgroundImage: 'backgroud.jpg'
+},
+//=====================================Route start============================
+"#imgPlay":
+	{
+	top: 0,
+	left: 5,
+	height: 40,
+	width: 40,
+	image: "/images/play.png"
+},
+"#txtStart":{
+	right: 5,
+	borderStyle: Ti.UI.INPUT_BORDERSTYLE_ROUNDED,
+	left: 50,
+	width: Ti.UI.FILL,
+	height: 40,
+	top: 0,
+	hintText: "Select point start"
+},
+//=====================================Route stop============================
+"#imgPause":{
+	left: 5,
+	top: 45,
+	width: 40,
+	top: 45,
+	image: "/images/stop.png"
+},
+"#txtStop":{
+	right: 5,
+	borderStyle: Ti.UI.INPUT_BORDERSTYLE_ROUNDED,
+	left: 50,
+	width: Ti.UI.FILL,
+	height: 40,
+	top: 45,
+	hintText: "Select point stop"
+},
+"#viewStartStop":{
+	top: 0,
+	height: 90,
+	width: Ti.UI.FILL
+}
+//=====================================Select travel-mode============================
+"#viewPicker":
+	{
+	right: 5,
+	left: 5,
+	top: 92,
+	width: Ti.UI.FILL
+},
+"#picker":{
+	top: 0,
+	selectionIndicator: true,
+	useSpinner: false,
+	width: Ti.UI.FILL
+}
+

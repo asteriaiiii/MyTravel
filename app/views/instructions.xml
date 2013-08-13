@@ -1,0 +1,11 @@
+<Alloy>
+	<Window id="idintruction" class="viewintruction">
+		<TableView id="tableviewintruction">
+			<TableViewRow id="rowintruction" onClick="clickLocation">
+				<Label id="lblid"></Label>
+				<Label id="lblintruction"></Label>
+				<Label id="lblkm"></Label>
+			</TableViewRow>
+		</TableView>
+	</Window>>
+</Alloy>

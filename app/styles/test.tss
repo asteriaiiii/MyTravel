@@ -1,0 +1,24 @@
+".test":
+{
+	backgroundColor: "white",
+	fullscreen:true,
+	title:"Test"
+}
+"#txtLat":{
+	top: 5,
+	height: Ti.UI.SIZE,
+	width: Ti.UI.FILL,
+	hintText: 'Latitude'
+},
+"#txtLng":{
+	top: 45,
+	height: Ti.UI.SIZE,
+	width: Ti.UI.FILL,
+	hintText: 'Longitude'
+},
+"#btnTestOK":{
+	top: 85,
+	height: Ti.UI.SIZE,
+	width: Ti.UI.FILL,
+	title: "Test Audio"
+}

@@ -1,0 +1,67 @@
+".container": {
+	backgroundColor: "white",
+	fullscreen: true
+},
+//=============================Map========================================
+"#map": {
+	mapType: Titanium.Map.STANDARD_TYPE,
+	animate: true,
+	region: {
+		latitude: 39.30109620906199,
+		longitude: 39.30109620906199,
+		latitudeDelta: 0.1,
+		longitudeDelta: 0.1
+	},
+	userLocation: true,
+	regionFit: true
+},
+//====================================Search address========================
+"#txtSearch":{
+	top: 0,
+	hintText: "Search address",
+	width: Ti.UI.FILL,
+	height: Ti.UI.SIZE,
+	right: 65,
+	visible: false
+},
+"#btnSearch":{
+	right: 5,
+	top: 0,
+	title: 'Search',
+	width: Ti.UI.SIZE,
+	height: Ti.UI.SIZE,
+	visible: false
+}
+//================================AlwayDisplay===========================
+//=============================Dislay intruction===============================
+"#lblAB":{
+	top: 0,
+	color: 'black',
+	width: Ti.UI.FILL,
+	height: Ti.UI.SIZE,
+	backgroundColor: "white",
+	visible: false
+}
+//==============================Display icon==================================
+"#viewIcon":{
+	bottom: 0,
+	height: "30%",
+	visible:false
+}
+// ==================================Menu main==================================
+"#menuSearch":
+	{
+	title: 'Search',
+	icon: "/images/traffic/sm8yoyo3.gif"
+},
+"#menuRoute":{
+	title: 'Route',
+	icon: "/images/route.png"
+},
+"#menuNear":{
+	title: 'Near places',
+	icon: "/images/places.png"
+}
+"#menuTestAudioLocation":{
+	title: 'Test'
+}

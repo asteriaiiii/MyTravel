@@ -1,0 +1,41 @@
+<Alloy>
+	<Window class='container' id='main'  >
+		<View ns="Ti.Map" id="map" onClick="mapClick"  onLongpress="mapLongpress" onRegionchanged="mapLocationChange" onPinchangedragstate="onPinChanged">
+		</View>
+		<!-- Search adrress -->
+		<Label id="lblAB" onClick="lblIntruction">
+		</Label>
+		<View id="viewSearch" top="0" height="40">
+			<TextField id="txtSearch" >
+			</TextField>
+			<Button id="btnSearch" onClick="searchChange">
+			</Button>
+		</View>
+		<!--Check location-->
+		<View id="checkSpeed" bottom="0" height="30%" layout="horizontal" width="Ti.UI.FILL">
+			<Button id="btnDeleteRoute" onClick="deleterouteClick" width="Ti.UI.SIZE" title="DELETEROUTE"/>
+			<Button id="btnLocation" onClick="locationClick" width="Ti.UI.SIZE" title="GETLOCATION"/>
+			<Button id="btnStart" onClick="startClick" width="Ti.UI.SIZE" title="START"/>
+			<Button id="btnStop" onClick="stopClick" title="STOP" width="Ti.UI.SIZE"/>
+			<Button id="btnIncrementSpeed" onClick="incrementClick" width="Ti.UI.SIZE" title="INCREMENT++"/>
+			<Button id="btnRoute" onClick="getRouteClick" width="Ti.UI.SIZE" title="GETROUTE"/>
+			<Button id="btnPlayMP3" onClick="getPlayMP3Click" width="Ti.UI.SIZE" title="PLAYMP3"/>
+			<Button id="btnStopMP3" onClick="getStopMp3Click" width="Ti.UI.SIZE" title="STOPMP3"/>
+		</View>
+		<!-- Select icon-->
+		<View id="viewIcon">
+			<Require type="widget" src="tiflexigrid" id="fg"/>
+		</View>
+		<!-- The Menu tag add the android menu -->
+		<Menu id="menu" platform="android">
+			<MenuItem id="menuSearch" onClick="menuSearchClick">
+			</MenuItem>
+			<MenuItem id="menuRoute" onClick="menuRouteClick">
+			</MenuItem>
+			<MenuItem id="menuNear" onClick="menuNearClick">
+			</MenuItem>
+			<MenuItem id="menuTestAudioLocation" onClick="menuTestAudioLocationClick">
+			</MenuItem>
+		</Menu>
+	</Window>
+</Alloy>

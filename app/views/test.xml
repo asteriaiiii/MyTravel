@@ -1,0 +1,7 @@
+<Alloy>
+	<Window  class="test" id="idTest">
+		<TextField id="txtLat"></TextField>
+		<TextField id="txtLng"></TextField>
+		<Button id="btnTestOK" onClick="clickAudio"></Button>
+	</Window>
+</Alloy>

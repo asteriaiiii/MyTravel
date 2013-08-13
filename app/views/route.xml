@@ -1,0 +1,20 @@
+<Alloy>
+	<Window class="route" id="winIntruction" >
+		<View  id="viewStartStop">
+			<ImageView id="imgPlay" ></ImageView>
+			<TextField id="txtStart"></TextField>
+			<ImageView id="imgPause"></ImageView>
+			<TextField id="txtStop"></TextField>
+		</View>
+		<View id="viewPicker">
+			<Picker id="picker" onChange="onChangePicker">
+				<PickerRow  title="Selection"/>
+				<PickerRow  title="driving"/>
+				<PickerRow  title="bicycling"/>
+				<PickerRow  title="transit"/>
+				<PickerRow  title="walking"/>
+			</Picker>
+		</View>
+		
+	</Window>
+</Alloy>
